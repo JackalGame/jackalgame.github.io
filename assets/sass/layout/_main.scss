@@ -79,10 +79,9 @@
 				gutters:			(_size(padding) * 4),
 				horizontal-align:	center,
 				vertical-align:		flex-start,
-				flush:				true
+				flush:				false
 			));
 			width: 100%;
-			height: 100%;
 			padding: 0;
 
 			> article {
@@ -155,6 +154,5 @@
 
 		@include breakpoint('<=xsmall') {
 			width: 100%;
-			height: 100%;
 		}
 	}
